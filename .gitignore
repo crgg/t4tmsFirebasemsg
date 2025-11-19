@@ -1,0 +1,47 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos temporales
+*.log
+*.tmp
+*.temp
+
+# Configuración y secretos
+serviceAccount.json
+*.secret.json
+*.key.json
+*.credentials.json
+
+# Configuración de entorno
+.env
+.env.*
+
+# Archivos generados por Flask o Gunicorn
+instance/
+*.db
+*.sqlite3
+
+# Archivos del editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Carpeta de pycache
+**/__pycache__/
+
+# Archivos de pruebas
+coverage/
+htmlcov/
+.pytest_cache/
+
+# Otros que a veces se generan
+*.spec
+*.bak
